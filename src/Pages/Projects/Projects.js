@@ -24,7 +24,7 @@ import "./Projects.css";
     return (
       <section className="project-section" id="portfolio">
         <Container maxWidth="lg">
-          <h2 className="text-center">My Portfolio</h2>
+          <h2 className="text-center">My Projects</h2>
           <Grid container>
             {projectInfo.map((item, index) => (
               <Grid item lg={4} md={6} sm={12} xs={12} key={index}>
