@@ -1,7 +1,9 @@
 .project-section {
-    padding-top: 100px;
-    margin-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 .project-container {
     margin: 20px;
     background-color: rgba(231, 146, 131, 0.363);
