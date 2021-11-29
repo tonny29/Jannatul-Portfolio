@@ -28,21 +28,6 @@
 .project-section .swiper-button-prev, .project-section .swiper-button-next {
     transition: 0.4s;
 }
-
-.project-section .swiper-button-prev:hover::after, .project-section .swiper-button-next:hover::after {
-    color: #fff;
-    padding: 10px;
-    background-color: rgba(0,0,0,0.8);
-    border-radius: 5px;
-}
-
-.project-icon {
-    color: #fff;
-    font-size: 25px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
 @media screen and (min-width:100px){
     .text-container img {
         height: 370px;
