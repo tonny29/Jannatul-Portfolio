@@ -11,6 +11,7 @@
     color: white;
     font-size: large;
     font-weight: 700;
+    margin: 3px;
 }
 .home-text button:hover{
     background-color: rgb(99, 20, 4);

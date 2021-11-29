@@ -70,10 +70,10 @@ import "./Projects.css";
                       <p>3. {item.about3}</p>
                     </AccordionDetails>
         
-                    <AccordionDetails>
-                      <a href={item.ClientCode} target="_blank" rel="noreferrer">Client Code</a>
-                      <a href={item.ServerCode} target="_blank" rel="noreferrer">Server Code</a>
-                      <a href={item.liveSite} target="_blank" rel="noreferrer">Live Site</a>
+                    <AccordionDetails className="home-text">
+                      <a href={item.ClientCode} target="_blank" rel="noreferrer"><button>Client Code</button></a>
+                      <a href={item.ServerCode} target="_blank" rel="noreferrer"><button>Server Code</button></a>
+                      <a href={item.liveSite} target="_blank" rel="noreferrer"><button>Live Site</button></a>
                     </AccordionDetails>
                   </Accordion>
                 </div>
