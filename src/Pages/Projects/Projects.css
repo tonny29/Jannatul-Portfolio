@@ -3,38 +3,48 @@
     margin-bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.text-center{
+    color: tomato;
+}
 .project-container {
     margin: 20px;
+    
     background-color: rgba(231, 146, 131, 0.363);
     color: black;
     font-family: 'Poppins', 'sans-serif';
+    border: 1px solid rgb(163, 139, 135);
+    border-radius: 5px;
 }
 .project-container > h2 {
-    font-size: 18px;
+    font-size: 22px;
     padding: 5px 0 0 0;
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* text-align: center; */
 }
 
 .project-container > h3 {
     font-size: 14px;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+
 }
 
 .project-section .swiper-button-prev::after, .project-section .swiper-button-next::after {
     font-size: 30px;
-    color: #000;
-    transition: 2s;
+    color: rgb(131, 94, 94);
+    transition: 4s;
+    
 }
 
 .project-section .swiper-button-prev, .project-section .swiper-button-next {
-    transition: 0.4s;
+    transition: 2s;
 }
 @media screen and (min-width:100px){
     .text-container img {
-        height: 370px;
-        width: 100%;
-            
+        height: 200px;
+        width: 100%;    
     }
 }
 

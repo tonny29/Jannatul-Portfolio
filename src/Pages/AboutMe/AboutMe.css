@@ -1,10 +1,9 @@
-.home-text{
-    height: 70%;
+.about-text{
     color:black;
-    margin-top: 70px;
-    
+    margin-left: 10px; 
+    margin-top: 5%;   
 }
-.home-text button{
+.about-text button{
     background-color: rgb(233, 115, 115);
     padding: 10px;
     border: none;
@@ -14,11 +13,7 @@
     font-weight: 700;
     margin: 3px;
 }
-.home-text button:hover{
+.about-text button:hover{
     background-color: rgb(99, 20, 4);
     
-}
-.img-style img{
-    width: 70%;
-    margin-top: 50px;
 }

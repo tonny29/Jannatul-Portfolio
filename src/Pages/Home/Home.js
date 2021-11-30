@@ -5,7 +5,8 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <Grid container spacing={2} style={{marginTop:10}}>
+        
+        <Grid container spacing={2} style={{margin:-30}}>
         <Grid item lg={6} md={6} xs={12}>
             <div className="home-text">
                 <p>Hey!! I am  <br /><h1><span style={{color:'tomato'}}>JANNATUL NAYEM TONNY</span></h1>I am a Full Stack developer with projects experience building websites and <br />  web applications. I have well knowledge on JavaScript Node.js.I also have experience working with React, Bootstrap, tailwind & MongoDB.</p>
@@ -20,6 +21,7 @@ const Home = () => {
             </div>
         </Grid>
       </Grid>
+      
     );
 };
 

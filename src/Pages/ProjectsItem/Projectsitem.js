@@ -24,7 +24,7 @@ export const projectInfo = [
     {
         img: [watch1, watch2, watch3, watch4, watch5],
         name: 'WATCH COLLECTIONS',
-        subtitle: 'You Can See How I Use Different Type Of Connections Here.',
+        subtitle: 'Here I Use Admin Side For Site Make Orginal.',
         about1: 'Implemented user interface using React JS, React-Router-Dom and Context API.',
         about2: 'Utilized MongoDB to store client-side user information.',
         about3: 'Build a secure authentication system using Firebase.',

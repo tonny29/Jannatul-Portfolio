@@ -24,7 +24,7 @@ import "./Projects.css";
     return (
       <section className="project-section" id="portfolio">
         <Container maxWidth="lg">
-          <h2 className="text-center">My Projects</h2>
+          <h1 className="text-center">My Projects</h1>
           <Grid container>
             {projectInfo.map((item, index) => (
               <Grid item lg={4} md={6} sm={12} xs={12} key={index}>
@@ -33,7 +33,7 @@ import "./Projects.css";
                     spaceBetween={50}
                     slidesPerView={1}
                     navigation
-                    autoplay={{ delay: 2000 }}
+                    autoplay={{ delay: 5000 }}
                     pagination={{ clickable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log("slide change")}
