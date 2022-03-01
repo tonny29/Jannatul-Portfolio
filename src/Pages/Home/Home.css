@@ -2,6 +2,7 @@
     height: 70%;
     color:black;
     margin-top: 70px;
+    margin-left: 15px;
     
 }
 .home-text button{
@@ -21,4 +22,5 @@
 .img-style img{
     width: 70%;
     margin-top: 50px;
+    border-radius: 100%;
 }

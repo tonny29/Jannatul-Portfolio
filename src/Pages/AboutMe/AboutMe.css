@@ -17,3 +17,17 @@
     background-color: rgb(99, 20, 4);
     
 }
+.img-styleTwo img{
+    width: 100%;
+    /* margin-top: 50px; */
+    margin-left: 3%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.img-styleTwo h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(112, 42, 29);
+    text-shadow: 5px 3px rgba(124, 64, 64, 0.349);
+}

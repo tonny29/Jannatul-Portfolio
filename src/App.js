@@ -3,7 +3,6 @@ import './App.css';
 import AboutMe from './Pages/AboutMe/AboutMe';
 import Contact from './Pages/ContactMe/Contact';
 import HomePage from './Pages/HomePage/HomePage';
-import Myskill from './Pages/MySkill/Myskill';
 import Navibar from './Pages/Navibar/Navibar';
 import Projects from './Pages/Projects/Projects';
 
@@ -12,6 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navibar></Navibar>
+      <hr />
         <Switch>
           <Route exact path='/'>
             <HomePage></HomePage>

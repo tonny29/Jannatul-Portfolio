@@ -1,0 +1,10 @@
+.footer-style{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgba(31, 24, 23, 0.815);
+    color: white;
+}
+.footer-style p{
+    margin-top: 7px;
+    font-stretch: expanded;
+}

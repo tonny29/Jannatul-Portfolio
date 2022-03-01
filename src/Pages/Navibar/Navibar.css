@@ -1,0 +1,18 @@
+.navColor p{
+    background-color: rgb(233, 115, 115);
+    padding:5px 10px 5px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+.navColor p:hover{
+        background-color: rgb(99, 20, 4);
+}
+.navColor h5{
+    font-size: 26px;
+    font-weight: bold;
+   
+    text-shadow: 5px 3px rgba(165, 42, 42, 0.342);
+}
